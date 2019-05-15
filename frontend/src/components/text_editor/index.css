@@ -1,0 +1,9 @@
+.RichEditor-controls span{
+  margin: 5px;
+  cursor: pointer;
+  color: rgb(153, 153, 153);
+}
+
+.RichEditor-controls span:hover{
+  color: rgb(66, 66, 66)
+}

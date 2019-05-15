@@ -1,0 +1,61 @@
+.event_type{
+  background-color: #f4f4f4;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: .2s;
+}
+
+.event_type h5{
+  transition: .2s;
+}
+
+.event_type span{
+  opacity: 0;
+  transition: .2s;
+}
+
+.event_type:hover span{
+  opacity: 1;
+}
+
+
+
+.event_type:hover h5{
+  color: #6bc3ff;
+}
+
+.submit-event-block{
+  cursor: pointer;
+}
+
+.submit-event-block i{
+  transition: .3s;
+}
+
+.submit-event-block:hover i{
+  transform: rotate(180deg);
+}
+
+
+.media-accs a{
+  font-size: 25px;
+  color: #4c4c4c;
+  vertical-align: middle;
+  transition: .2s
+}
+
+.twitter-social:hover{
+  color: #41ABE1
+}
+
+.medium-social:hover{
+  color: black
+}
+
+.reddit-social:hover{
+  color: #FF4500
+}
+
+.discord-social:hover{
+  color: #8C9EFF
+}

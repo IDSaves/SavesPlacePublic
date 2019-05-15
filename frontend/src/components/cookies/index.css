@@ -1,0 +1,9 @@
+.cookie-accept{
+  position: fixed;
+  bottom: 0;
+  background: linear-gradient(to right, #11998e, #38ef7d);
+}
+
+.cookies_policy{
+  border-radius: 5px;
+}

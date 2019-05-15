@@ -1,0 +1,34 @@
+.choose-date-body div input{
+  padding: 5px;
+  width: 100%;
+  background-color: white;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  text-align: center;
+  color: #495057;
+}
+
+.search-row{
+  transition: .4s;
+  opacity: 1;
+}
+
+.search-row.o-none{
+  opacity: 0;
+}
+
+.available-year{
+  background-color: #334D5C;
+  color: white;
+  border-radius: 3px;
+  margin-right: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 4px;
+  padding-right: 4px;
+  display: inline-block;
+}
+
+.available-year:hover{
+  color: #E28D8D;
+}

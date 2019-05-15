@@ -1,0 +1,78 @@
+
+.set-avatar {
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+}
+.set-avatar .current-avatar {
+  position: relative;
+  z-index: 999999;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.set-avatar .current-avatar.big {
+  width: 150px;
+  height: 150px;
+}
+
+.set-avatar .current-avatar img {
+  width: 100%;
+  margin: auto;
+}
+.set-avatar .current-avatar .hover-overlay {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(63, 63, 63, 0.8);
+  opacity: 0;
+  transition: all ease .24s;
+}
+.set-avatar .current-avatar .hover-overlay i {
+  color: white;
+  font-size: 25px;
+}
+.set-avatar .current-avatar:hover .hover-overlay {
+  opacity: 1;
+}
+
+.set input, textarea{
+    background: none;
+    border: none;
+    width: 100%;
+    font-size: 18px;
+    color: rgb(102, 102, 102);
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+.set-back{
+    cursor: pointer;
+    transition: .2s;
+    color: rgb(76, 76, 76);
+}
+
+.set-save{
+    cursor: pointer;
+    transition: .2s;
+}
+
+.set-back:hover{
+    color: #88b2fc
+}
+
+.set-save:hover{
+    color: #56d388;
+}
+
+.avatars-sel{
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}

@@ -1,0 +1,54 @@
+.profile-avatar{
+  width: 128px;
+  height: 128px;
+  border-radius: 50%;
+}
+
+.profile-header{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.user-rank{
+  border-radius: 5px;
+}
+
+.profile-header-data{
+  max-width: 350px;
+}
+
+.profile-status{
+  font-size: 14px;
+}
+
+.profile-tabs{
+  display: flex;
+  justify-content: left;
+}
+
+.profile-tab{
+  cursor: pointer;
+  color: #334d5c;
+  transition: .1s;
+}
+
+.profile-tab:hover{
+  color: #CE8282;
+}
+
+.profile-tab.active{
+  border-bottom: 2px solid #CE8282;
+}
+
+.profile-body{
+  transition: .3s;
+  overflow: hidden;
+  opacity: 1;
+  min-height: 255.6px;
+}
+
+.profile-body.loading{
+  filter: blur(5px);
+  pointer-events: none;
+}

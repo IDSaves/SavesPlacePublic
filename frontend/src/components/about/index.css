@@ -1,0 +1,33 @@
+.about-logo{
+  height: 150px;
+  width: 150px;
+}
+
+.event-type-about{
+  border-radius: 3px;
+}
+
+.event-type-about.mem{
+  background-color: #70ae6e;
+}
+.event-type-about.wor{
+  background-color: #F3BA70;
+}
+.event-type-about.spt{
+  background-color: #9ba2ff;
+}
+.event-type-about.art{
+  background-color: #DF4862;
+}
+.event-type-about.mus{
+  background-color: #34B1BC;
+}
+.event-type-about.sci{
+  background-color: #3d405b;
+}
+.event-type-about.gam{
+  background-color: #824670;
+}
+.event-type-about.mda{
+  background-color: #e56edb;
+}

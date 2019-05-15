@@ -1,0 +1,18 @@
+.vote-yes-event{
+  cursor: pointer;
+}
+
+.vote-no-event{
+  cursor: pointer;
+}
+
+.share-button{
+  display: inline-block;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.share-button:hover{
+  opacity: 0.75;
+}
